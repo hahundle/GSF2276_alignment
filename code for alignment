@@ -68,6 +68,7 @@ for FASTQ in ${FASTQ[@]}; do
     --genomeDir genome/index \
     --readFilesIn $FASTQ \
     --outFileNamePrefix $PREFIX \
+    --outSAMattributes All \
     --outSAMtype BAM SortedByCoordinate
 done
 
