@@ -18,7 +18,7 @@ countdata <- countdata[,6:ncol(countdata)]
 
 colnames(countdata)
 
-colnames(countdata) <- gsub("..results.aligned.GSF2276.","",colnames(countdata))
+colnames(countdata) <- gsub("..results.aligned.GSF2276.Hundley.","",colnames(countdata))
 
 colnames(countdata)
 
